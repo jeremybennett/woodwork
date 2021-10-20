@@ -3,6 +3,9 @@
 A stand to hold a laptop open to nearly 180 degrees and elevated, so it can be
 used as a second screen alongside a main screen.
 
+![Front view of the laptop stand](./images/complete-front.jpg)
+![Rear view of the laptop stand](./images/complete-back.jpg)
+
 ## Parts
 
 All parts are provided as OpenSCAD 3D models, with dimensions in
@@ -17,7 +20,7 @@ These don't have to be brass, but avoid plain steel, because it will
 tarnish. Bright Zinc Plated (BZP) is a cheaper alternative, or you could use
 stainless steel (expensive).
 
-Brass hinges 1.5" x 7/8" (38mm x 22mm) (2 off)
+* Brass hinges 1.5" x 7/8" (38mm x 22mm) (2 off)
 
 **Screws**
 
@@ -43,6 +46,80 @@ would be better if you can get them.
 - M6 brass hex nuts (2 off)
 - M6 brass wing nuts (2 off)
 
-### Base board
+### Wood parts
 
-![The board that forms the top of the base](./drawings/base-board.scad)
+**Back board**
+
+![Back board](./drawings/back-board.png)
+
+([STL](./drawings/back-board.stl), [OpenSCAD](./drawings/back-board.scad))
+
+The board on which the laptop rests
+
+**Base back**
+
+![base-back](./drawings/base-back.png)
+
+([STL](./drawings/base-back.stl), [OpenSCAD](./drawings/base-back.scad))
+
+The support for the back edge of the base board.
+
+**Base board**
+
+![base-board](./drawings/base-board.png)
+
+([STL](./drawings/base-board.stl), [OpenSCAD](./drawings/base-board.scad))
+
+The board forming the top of the base.
+
+**Base side (2 off)**
+
+![base-side](./drawings/base-side.png)
+
+([STL](./drawings/base-side.stl), [OpenSCAD](./drawings/base-side.scad))
+
+The support for the side edges of the base board.
+
+**Base support (2 off)**
+
+![base-support](./drawings/base-support.png)
+
+([STL](./drawings/base-support.stl), [OpenSCAD](./drawings/base-support.scad))
+
+Strut support which sits on the base board.
+
+**Hinge backstop**
+
+![hinge-backstop](./drawings/hinge-backstop.png)
+
+([STL](./drawings/hinge-backstop.stl),
+[OpenSCAD](./drawings/hinge-backstop.scad))
+
+A strip providing backing for the hinge screws into the base.
+
+**Ledge**
+
+![ledge](./drawings/ledge.png)
+
+([STL](./drawings/ledge.stl), [OpenSCAD](./drawings/ledge.scad))
+
+The ledge fixed at the bottom of the back board on which the edge of the
+laptop rests.
+
+**Slot support (2 off)**
+
+![slot-support](./drawings/slot-support.png)
+
+([STL](./drawings/slot-support.stl), [OpenSCAD](./drawings/slot-support.scad))
+
+Slotted support underneath the back board which connnects to the strut.
+
+**Strut (2 off)**
+
+![strut](./drawings/strut.png)
+
+([STL](./drawings/strut.stl), [OpenSCAD](./drawings/strut.scad))
+
+The adjustable struts connecting the base to the back board.
+
+## Construction
